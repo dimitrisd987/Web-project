@@ -1,0 +1,288 @@
+<!-- START OF HTML -->
+<html>
+<head>
+    <link href="dist/styles.css" rel="stylesheet" />
+    <style>
+        #menu-toggle:checked + #menu {
+          display: block;
+        }
+    </style>  
+</head>
+<!-- first section start -->
+<body> 
+
+    <div class="sm:w-full sm:h-800 bg-center md:w-full md:h-920 bg-cover absolute" style="background-image: url('./images/bg.png');"> 
+        
+        <img class="sm:mx-160 sm:border-none absolute md:mx-230 my-2.5 md:border-solid border-10 border-red rounded-full" src="./images2/logo.png">
+            <img class="sm:mx-10 sm:my-16 md:mx-430 md:my-7 absolute" src="./images2/time.png">
+                <img class="sm:mx-370 sm:my-16 md:mx-530 md:my-7 absolute" src="./images2/weather.png">
+                    <a href="#"><img class="sm:hidden md:block absolute mx-1450 my-9" src="./images2/login.png"></a>
+                         <a href="#"><img class="sm:hidden md:block absolute mx-1650 my-10" src="./images2/language.png"></a> 
+
+        
+        <div class="sm:invisible md:visible md:bg-white w-750 lg:w-1550 h-14 mx-auto my-20 rounded-md">
+            <a href="#"><img class="absolute mx-1500 my-4" src="./images2/mail.png"></a>
+            <ul class="text-blue flex justify-between text-sm font-sans font-bold py-5 pl-72 pr-24">
+                <li><a href="#" class="hover:text-red">Η ΟΜΟΣΠΟΝΔΙΑ</a></li>                          
+                <li><a href="#" class="hover:text-red">ΑΡΚΑΔΩΝ ΕΡΓΑ</a></li>
+                <li><a href="#" class="hover:text-red">ΕΠΩΝΥΜΟΙ ΑΡΚΑΔΕΣ</a></li>
+                <li><a href="#" class="hover:text-red">ΝΕΑ - ΕΝΗΜΕΡΩΣΗ</a></li>
+                <li><a href="#" class="hover:text-red">ΕΠΙΣΚΕΨΗ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
+                <li><a href="#" class="hover:text-red">ΑΝΑΖΗΤΗΣΕΙΣ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
+            </ul>
+        </div>
+
+        <!-- humburger menu start -->
+                        <label for="menu-toggle" class="md:invisible sm:visible sm:cursor-pointer absolute mx-450 -my-210"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3 7H21C21.6 7 22 6.6 22 6C22 5.4 21.6 5 21 5H3C2.4 5 2 5.4 2 6C2 6.6 2.4 7 3 7ZM22 12C22 12.6 21.6 13 21 13H3C2.4 13 2 12.6 2 12C2 11.4 2.4 11 3 11H21C21.6 11 22 11.4 22 12ZM3 17H21C21.6 17 22 17.4 22 18C22 18.6 21.6 19 21 19H3C2.4 19 2 18.6 2 18C2 17.4 2.4 17 3 17Z" fill="black"/>
+                                <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="5" width="20" height="14">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3 7H21C21.6 7 22 6.6 22 6C22 5.4 21.6 5 21 5H3C2.4 5 2 5.4 2 6C2 6.6 2.4 7 3 7ZM22 12C22 12.6 21.6 13 21 13H3C2.4 13 2 12.6 2 12C2 11.4 2.4 11 3 11H21C21.6 11 22 11.4 22 12ZM3 17H21C21.6 17 22 17.4 22 18C22 18.6 21.6 19 21 19H3C2.4 19 2 18.6 2 18C2 17.4 2.4 17 3 17Z" fill="white"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                <rect width="24" height="24" fill="white"/>
+                                </g>
+                                 </svg>
+                        </label>
+                                <input class="hidden" type="checkbox" id="menu-toggle" />
+
+                            <div class="hidden w-300 h-600 bg-white absolute mx-44 -my-210" id="menu">
+                                <nav>
+                                    <label for="menu-toggle"><img class="cursor-pointer absolute mx-4 my-4" src="./svgs/exit.svg"></label>
+            
+                                        <a href="#"><img class="absolute mx-250 my-4" src="./images/language2.png"></a>
+                                        <a href="#"><img class="absolute  my-16" src="./images2/login2.png"></a>
+                                      
+                                        <ul class="w-300 h-265 mx-4 text-left justify-between text-blue font-sans font-bold text-sm pt-36 space-y-8">      
+                                            <li><a href="#" class="hover:text-red">Η ΟΜΟΣΠΟΝΔΙΑ</a></li>
+                                            <li><a href="#" class="hover:text-red">ΑΡΚΑΔΩΝ ΕΡΓΑ</a></li>
+                                            <li><a href="#" class="hover:text-red">ΕΠΩΝΥΜΟΙ ΑΡΚΑΔΕΣ</a></li>
+                                            <li><a href="#" class="hover:text-red">ΝΕΑ - ΕΝΗΜΕΡΩΣΗ</a></li>
+                                            <li><a href="#" class="hover:text-red">ΕΠΙΣΚΕΨΗ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li>
+                                            <li><a href="#" class="hover:text-red">ΑΝΑΖΗΤΗΣΕΙΣ ΣΤΗΝ ΑΡΚΑΔΙΑ</a></li> 
+                                            <li><a href="#" class="hover:text-red">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+                                        </ul>
+
+                                        <img class="mx-265 -my-120" src="./images2/right.png">
+                                        <img class="mx-265  my-150" src="./images2/right.png">
+                                        <img class="mx-265 -my-120" src="./images2/right.png">
+                                        <img class="mx-265  my-155" src="./images2/right.png">
+                                        <img class="mx-265 -my-115" src="./images2/right.png">
+                                        <img class="mx-265  my-147" src="./images2/right.png">
+                                        <img class="mx-265 -my-115" src="./images2/right.png">
+
+                                </nav>                                         
+                            </div>
+        <!-- humburger menu end -->
+
+                <div class=""><img class="sm:mx-120 -my-3 md:mx-430 md:-my-16 md:absolute" src="./images2/PAF.png"></div>
+
+            <div class="sm:mx-10 my-20 md:mx-685 md:my-10">
+                <div class="sm:w-400 sm:h-400 sm:mx-auto sm:border-4 md:w-530 md:h-530 md:mx-auto md:border-8 border-white rounded-full bg-cover" style="background-image: url('./images/circle.png');">  
+                    <img class="sm:mx-auto sm:my-5 md:mx-auto md:my-10" src="./images/greek.png">
+                        <div class="text-center text-white">
+                            <ul class="-my-5 font-sans font-bold text-xs">ΚΑΛΩΣ ΗΛΘΑΤΕ</ul>
+                            <ul class="sm:my-10 md:my-14 font-sans font-bold text-2xl">Η αποστολή μας</ul>
+                                <div class="md:invisible w-265 mx-14 -my-5 leading-8 font-normal text-base">
+                                    Ο Παναρκαδικής Ομοσπονδίας Αμερικής είναι μια πανεθνική μη κερδοσκοπικού 
+                                    αδελφό ελληνικό-αμερικανική οργάνωση...
+                                </div>
+
+                                <div class="sm:invisible md:visible">
+                                    <ul class="w-390 h-120 mx-20 -my-32 leading-8 font-normal text-base">Ο Παναρκαδικής Ομοσπονδίας Αμερικής είναι μια πανεθνική μη κερδοσκοπικού 
+                                    αδελφό ελληνικό-αμερικανική οργάνωση τα μέλη της οποίας κατεβαίνουν από την 
+                                    περιοχή της Αρκαδίας στην Πελοπόννησο, στη νότια Ελλάδα …</ul>
+                                </div>
+                                                          
+                            <div class="sm:my-44 sm:w-36 sm:h-10 md:w-44 md:h-10 mx-auto md:my-200 border-2 border-white rounded-md font-bold text-sm block gap-4">
+                                    <a href="#">ΠΕΡΙΣΣΟΤΕΡΑ</a>
+                            </div>
+                    </div>
+                </div>
+            </div>  
+    </div>
+<!-- first section end --> 
+
+
+<!-- second section start --> 
+    <div class="sm:w-full sm:h-960 sm:mt-800 md:w-full md:h-920 md:mt-880 bg-cover absolute" style="background-image: url('./images/bg2.png');">
+        <img class="mx-auto my-10" src="./images/tree.png">
+       
+            <h1 class="sm:w-350 sm:h-20 sm:text-center mx-auto md:w-750 md:h-14 md:text-center text-red text-5xl font-sans font-bold">Μετριόμαστε, γιατί μετράμε!</h1>
+        
+        <div class="sm:invisible md:visible w-500 h-250 mx-410 my-12 text-left font-sans">
+            <h1 class="text-lg text-blue font-bold leading-6">Γενική απογραφή  των αποδήμων Αρκάδων στις ΗΠΑ και επαναπατρισθέντων από τις ΗΠΑ</h1>
+            <h2 class="text-base leading-6 my-5">Η Παναρκαδική Ομοσπονδία Αμερικής πραγματοποιεί απογραφή των Αρκάδων που διαμένουν και εργάζονται στις ΗΠΑ, (ανεξαρτήτως υπηκοότητας).</h2>
+            <h3 class="text-base font-bold my-5">Το αποτύπωμα της Αρκαδικής γης μας συνδέει!</h3>
+            <h4>Όση χιλιομετρική απόσταση και αν μας χωρίζει, όσες γενιές και να έχουμε...ψηλώσει πέρα απο τις ρίζες μας, η Αρκαδία, μας ενώνει!</h4>   
+        </div>
+
+        <div class="sm:visible md:invisible w-350 h-16 text-center mx-16 -mt-72 font-sans absolute">
+            <h1 class="text-lg text-blue font-bold leading-6">Γενική απογραφή  των αποδήμων Αρκάδων στις ΗΠΑ και επαναπατρισθέντων από τις ΗΠΑ</h1>
+            <h2 class="text-base leading-6 my-5">Η Παναρκαδική Ομοσπονδία Αμερικής πραγματοποιεί απογραφή των Αρκάδων που διαμένουν και εργάζονται στις ΗΠΑ, (ανεξαρτήτως υπηκοότητας).</h2>
+            <h3 class="text-base font-bold -my-7">Το αποτύπωμα της Αρκαδικής γης μας συνδέει!</h3>
+            <h4 class="my-10">Όση χιλιομετρική απόσταση και αν μας χωρίζει, όσες γενιές και να έχουμε...ψηλώσει πέρα απο τις ρίζες μας, η Αρκαδία, μας ενώνει!</h4>   
+        </div>
+
+        <ul class="w-500 h-250 mx-1050 -my-300 leading-8 font-sans">
+                    <li class="text-blue font-bold text-lg ">Απογραφόμαστε...</li>
+                    <li class="mt-10">Για να γνωρίσουμε ο ένας τον άλλο.</li>
+                    <li>Για να αντλήσουμε δύναμη απο  τις ρίζες μας και την καταγωγή μας.</li>
+                    <li>Για να είμαστε χρήσιμοι και να  παρεμβαίνουμε δημιουργικά για τις ΗΠΑ την Ελλάδα και την Αρκαδία.</li>
+                    <li>Για να υλοποιήσουμε τα σχέδια και τα οραματά μας.</li>
+                    <li>Για να είμαστε ισχυροί.</li>
+        </ul>
+
+        <div class="w-5 h-200 my-32 mx-1030">
+            <img class="my-4" src="./images/arrow.png">
+            <img class="my-5" src="./images/arrow.png">
+            <img class="my-2" src="./images/arrow.png">
+            <img class="my-11 " src="./images/arrow.png">
+            <img class="-my-6"src="./images/arrow.png">
+        </div>
+    
+        <ul class="sm:invisible md:visible mx-880 w-500 h-100 font-sans font-bold">
+            <h2 class="text-red text-lg mx-2">ΤΕΛΕΤΗ ΕΝΑΡΞΗΣ</h2>
+            <h3 class="-mx-40 my-2 text-blue text-4xl">Παρασκευή 20 Απριλίου 2108</h3>
+            <h4 class="text-blue text-lg mx-9 my-4">ΝΕΑ ΥΟΡΚΗ</h4>
+        </ul>
+
+        <ul class="sm:visible md:invisible ml-40 -my-160 font-sans font-bold absolute text-center">
+            <li class="text-red text-lg -my-2">ΤΕΛΕΤΗ ΕΝΑΡΞΗΣ</li>
+            <li class="-mx-40 my-2 text-blue text-4xl">Παρασκευή</li> 
+            <li class="-mx-40 my-2 text-blue text-4xl">20 Απριλίου 2108</li>
+            <li class="text-blue text-lg mx-9">ΝΕΑ ΥΟΡΚΗ</li>
+        </ul>
+
+    </div>
+<!-- second section end --> 
+
+<!-- third section start -->
+    <div class="sm:w-full sm:h-750 sm:mt-1750 md:w-full md:h-750 md:mt-1800 bg-cover absolute" style="background-image: url('./images/bg3.png');">
+
+        <img class="mx-auto my-10" src="images/greek.png">
+        <h1 class="text-center -my-6 text-white text-xs font-bold font-sans">ΕΡΓΑ & ΔΡΑΣΤΗΡΙΟΤΗΤΕΣ</h1>
+
+        <div class="sm:mx-20 flex space-x-4 md:flex space-x-4 md:mx-320 my-20">
+            <img src="./images/photo1.png">
+            <img src="./images/photo2.png">
+            <img src="./images/photo3.png">
+            <img src="./images/photo4.png">
+        </div>
+
+        <div class="sm:invisible md:visible mx-310 -my-32 flex space-x-44">
+            <a href="#"><img src="svgs/photo1button.svg"></a>
+            <a href="#"><img src="svgs/photo2button.svg"></a>
+            <a href="#"><img src="svgs/photo3button.svg"></a>
+            <a href="#"><img src="svgs/photo4button.svg"></a>
+        </div>
+
+            <a href="#"><img class="my-56 mx-auto" src="./images/Primary.png"></a> 
+        
+            <a href="#"><img class="md:invisible mx-20 -my-375" src="svgs/photo1button.svg"></a>
+            <a href="#"><img class="md:invisible mx-400 my-330" src="svgs/photo2button.svg"></a>
+            
+    </div>
+<!-- third section end -->
+
+<!-- fourth section start -->
+    <div class="sm:w-full sm:h-500 sm:mt-2800 md:w-full md:h-600 bg-cover absolute">
+
+        <h1 class="sm:-my-230 md:text-blue text-center font-sans font-bold text-xs md:-my-150">ΕΠΙΚΟΙΝΩΝΙΑ</h1>
+
+            <div class="sm:invisible md:visible">
+                <img class="mx-auto my-200" src="./images/dividertop.png">
+            </div>
+
+            
+        <!-- form section start -->
+        <div class="sm:invisible md:visible w-640 h-390 mx-660 -my-14">
+                    <label class="block text-gray-700 text-sm font-sans mb-2 -my-44" for="name">
+                        Ονοματεπώνυμο
+                    </label>
+                    <input
+                        class="w-550 h-12 border rounded py-4 px-3 text-gray-700 leading-tight"
+                        name="name" id="name" type="text">
+
+                    <label class="block text-gray-700 text-sm font-sans mb-2 my-5" for="phone">
+                        Τηλέφωνο
+                    </label>
+                    <input
+                        class="w-550 h-12 border rounded py-2 px-3 text-gray-700 leading-tight"
+                        name="phone" id="phone" type="text">
+                    <label class="block text-gray-700 text-sm font-sans mb-2 my-5" for="email">
+                        Email
+                    </label>
+                    <input
+                        class="w-550 h-12 border rounded py-2 px-3 text-gray-700 leading-tight"
+                        name="email" id="email" type="text">
+                    <label class="block text-gray-700 text-sm font-sans mb-2 my-5" for="message">
+                        Μήνυμα
+                    </label>
+                    <input
+                        class="w-550 h-40 border rounded pb-32 px-3 text-gray-700"
+                        name="message" id="message" type="text">                               
+        </div>
+                        <a href="#"><img class="sm:invisible md:visible mx-970 mt-52 absolute"src="svgs/formbutton.svg"></a>
+                        <img class="mx-550 mt-44" src="./images/dividerbottom.png">
+
+        <div class="sm:visible md:invisible w-280 h-390 mx-6 -my-460">
+                        <label class="block text-gray-700 text-sm font-sans mb-2 -my-44" for="name">
+                            Ονοματεπώνυμο
+                        </label>
+                            <input
+                                class="w-440 h-12 border rounded py-4 px-3 text-gray-700 leading-tight"
+                                name="name" id="name" type="text">
+            
+                        <label class="block text-gray-700 text-sm font-sans mb-2 my-5" for="phone">
+                            Τηλέφωνο
+                        </label>
+                            <input
+                                class="w-440 h-12 border rounded py-2 px-3 text-gray-700 leading-tight"
+                                name="phone" id="phone" type="text">
+                        <label class="block text-gray-700 text-sm font-sans mb-2 my-5" for="email">
+                            Email
+                        </label>
+                            <input
+                                class="w-440 h-12 border rounded py-2 px-3 text-gray-700 leading-tight"
+                                name="email" id="email" type="text">
+                        <label class="block text-gray-700 text-sm font-sans mb-2 my-5" for="message">
+                            Μήνυμα
+                        </label>
+                            <input
+                                class="w-440 h-40 border rounded pb-32 px-3 text-gray-700"
+                                name="message" id="message" type="text">                      
+        </div>
+        <!-- form section end -->
+
+                            <img class="md:invisible -mx-5 my-600" src="./images/dividerbottom.png">
+                            <a href="#"><img class="md:invisible mx-330 -my-550 absolute" src="./images/Primary2.png"></a>
+</div>
+<!-- fourth section end -->
+
+
+<!-- footer section start -->
+<div class="sm:w-full sm:h-800 sm:mt-3300 md:w-full md:h-500 md:mt-3400 bg-cover absolute" style="background-image: url('./images/footer.png');">
+
+                            <a href="#"><img class="mx-1650" src="svgs/topbutton.svg"></a>
+                            <img class="mx-auto -my-7" src="svgs/logo2.svg">
+                            <img class="mx-auto my-2" src="svgs/signaturelogo.svg">
+                            <a href="#"><img class="mx-auto my-7" src="svgs/social.svg"></a>
+
+                            <div class="sm:w-200 mx-auto text-center leading-10 md:w-1500 text-white font-sans font-bold text-base space-x-8 list-none md:mx-auto my-5">
+                                <a href="#" class="hover:text-red">Η ΟΜΟΣΠΟΝΔΙΑ</a>
+                                <a href="#" class="hover:text-red">ΑΡΚΑΔΩΝ ΕΡΓΑ</a>
+                                <a href="#" class="hover:text-red">ΕΠΩΝΥΜΟΙ ΑΡΚΑΔΕΣ</a>
+                                <a href="#" class="hover:text-red">ΝΕΑ - ΕΝΗΜΕΡΩΣΗ</a>
+                                <a href="#" class="hover:text-red">ΕΠΙΣΚΕΨΗ ΣΤΗΝ ΑΡΚΑΔΙΑ</a>
+                                <a href="#" class="hover:text-red">ΑΝΑΖΗΤΗΣΕΙΣ ΣΤΗΝ ΑΡΚΑΔΙΑ</a>
+                                <a href="#" class="hover:text-red">ΕΠΙΚΟΙΝΩΝΙΑ</a>                    
+                            </div>
+
+                            <a href="#"><img class="md:invisible mx-430 -my-20" src="svgs/topbutton.svg"></a>
+                            <h1 class="text-white font-sans text-sm text-center text-opacity-50 sm:my-32 md:my-36">©2018 Pan Arcadian Federation of America</h1>                            
+</div>
+<!-- footer section end --> 
+</body>
+</html>
+<!-- END OF HTML -->
+        
